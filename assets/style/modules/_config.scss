@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $black;
+}
+
+/* Выделение цветом */
+.highlight{
+    color: $blue;
+}
+
+hr{
+    background-color: $blue;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    height: 4px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 1.55;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h6{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+.questions .section_title-big {
+    margin-bottom: 60px;
+}
+
+.hr-vertical{
+    position: absolute;
+    transform: rotate(90deg);
+    background-color: #526efc;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+

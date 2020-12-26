@@ -1,0 +1,50 @@
+.footer{
+    padding-top: 70px;
+    background-color: #E2E7E7;
+    padding-bottom: 70px;
+}
+
+.footer p{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.footer__hr{
+    width: 100px;
+    margin-left: 0;
+}
+
+.phone-text,
+.email-text,
+.social-text{
+    color: #286cb6;
+}
+
+.phone-text a,
+.email-text a {
+    color: #726a84;
+    text-decoration: none;
+}
+
+
+.form-control{
+    color: #001426;
+    border: 2px solid #c2c7cc;
+    background-color: #fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    height: 70px;
+}
+
+.footer__select{
+    color: #495057;
+}
+
+.social-text a{
+    text-decoration: none;
+    color: #726a84;
+    font-size: 20px;
+}

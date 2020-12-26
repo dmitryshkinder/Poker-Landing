@@ -1,0 +1,136 @@
+.button{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.55;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 50px;
+    background-color: $blue;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    box-shadow: 0px 10px 30px 0px rgba(82,110,252,0.8);
+    width: 365px;
+    padding: 18px 0;
+    transition-delay: 1.6s;
+    transition-duration: 3s;
+}
+
+.header__button{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px auto;
+    line-height: 1.55;
+    font-weight: 600;
+    border-width: 2px;
+    border-color: #ffffff;
+    background-color: #000000;
+    padding: 12px 20px;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.header__button:hover{ 
+    background-color: $blue; 
+    border-color: $blue;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__price-btn{
+    border-width: 1px;
+    border-radius: 100px;
+    background-position: center center;
+    border-color: $blue;
+    padding: 15px;
+    border-style: solid;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    width: 230px;
+}
+
+.btn-primary {
+    z-index: 10;
+    overflow: hidden;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.btn-primary::before {
+    margin-left: 60px;
+    content: "";
+    width: 30px;
+    height: 300px;
+    background: #fff;
+    -webkit-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+    position: absolute;
+    left: -40px;
+    top: -150px;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-animation-name: radiance;
+    animation-name: radiance;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.9;
+}
+
+@-webkit-keyframes radiance { 
+    0% { 
+      opacity: 1;
+      left: -30px; 
+      margin-left: 0px; 
+    } 
+    30% { 
+      opacity: 1;
+      left: 110%; 
+      margin-left: 80px; 
+    } 
+  
+    40% { 
+      opacity: 0;
+      left: 110%; 
+      margin-left: 80px; 
+    } 
+  
+    100% { 
+      opacity: 0;
+      left: 110%; 
+      margin-left: 80px; 
+    } 
+  }
+  
+  @keyframes radiance { 
+    0% { 
+      opacity: 1;
+      left: -30px; 
+      margin-left: 0px; 
+    } 
+    30% { 
+      opacity: 1;
+      left: 110%; 
+      margin-left: 80px; 
+    } 
+  
+    40% { 
+      opacity: 0;
+      left: 110%; 
+      margin-left: 80px; 
+    } 
+  
+    100% { 
+      opacity: 0;
+      left: 110%; 
+      margin-left: 80px; 
+    } 
+  }

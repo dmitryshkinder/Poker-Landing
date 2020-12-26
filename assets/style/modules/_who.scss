@@ -1,0 +1,52 @@
+.who {
+    margin-bottom: 80px;
+}
+
+.who__hr{
+    width: 270px;
+}
+
+.who__sub-title{
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.triangle{
+    box-shadow: 5px 5px 20px 0px rgba(201,201,201,1);
+    margin-bottom: 30px;
+}
+
+.triangle p {
+    font-weight: 700;
+    padding: 70px;
+    margin: 0;
+}
+
+.gold-number {
+    color: #333333;
+    font-size: 64px;
+    background-size: cover;
+    background-position: center center;
+    background: #bf98a5;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80px;
+    flex: 0 0 80px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.gold-number.small {
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+}

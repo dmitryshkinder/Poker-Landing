@@ -1,0 +1,40 @@
+.program{
+    padding-bottom: 100px;
+    color: #fff;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/img/program-bg.png');
+}
+
+.program__hr{
+    width: 270px;
+}
+
+.program__list{
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+.program__element{
+    counter-increment: my-awesome-counter;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.program__element::before{
+    content: "" counter(my-awesome-counter);
+    opacity: 0.5;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.program__element p{
+    padding: 45px 0 0 33px;
+}
